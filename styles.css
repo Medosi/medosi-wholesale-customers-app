@@ -1,0 +1,46 @@
+.approve {
+  color: green;
+  font-size: 1.5em;
+}
+.decline {
+  color: red;
+  font-size: 1.5em;
+}
+.approve:hover,
+.decline:hover {
+  cursor: pointer;
+}
+
+.loading {
+  width: 1.5em;
+}
+
+#warning-alert {
+  opacity: 0;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  max-width: 45%;
+}
+
+#success-alert {
+  opacity: 0;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  max-width: 45%;
+}
+
+div.half {
+  width: 49%;
+  display: inline-block;
+}
+
+#customer-modal [data-value] {
+  font-size: 14px;
+}
+
+[data-action="get-customer-data"] {
+  color: #2580c3;
+  cursor: pointer;
+}
